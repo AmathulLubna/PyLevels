@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import LandingPage from './pages/LandingPage';
+import LandingPage from "./pages/LandingPage.jsx";
 import LevelSelectPage from './pages/LevelSelectPage';
 import QuizPage from './pages/QuizPage';
 import ResultsPage from './pages/ResultsPage';
