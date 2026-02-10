@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
-import quizData from '@/data/quizData';
+import quizData from '@/components/data/quizData';
 import LevelCard from '@/components/LevelCard';
 import { useLevelUnlock } from '@/contexts/LevelUnlockContext';
 
