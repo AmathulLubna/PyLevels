@@ -1,13 +1,14 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import LandingPage from "./pages/LandingPage";
-import LevelSelectPage from './pages/LevelSelectPage';
-import QuizPage from './pages/QuizPage';
-import ResultsPage from './pages/ResultsPage';
+import LandingPage from "./components/pages/LandingPage";
+import LevelSelectPage from './components/pages/LevelSelectPage';
+import QuizPage from './components/pages/QuizPage';
+import ResultsPage from './components/pages/ResultsPage';
 import { Toaster } from './components/ui/toaster';
-import { LevelUnlockProvider } from './contexts/LevelUnlockContext';
-import { QuizProvider } from './contexts/QuizContext';
+import { LevelUnlockProvider } from './components/contexts/LevelUnlockContext';
+import { QuizProvider } from './components/contexts/QuizContext';
+
 
 function App() {
   return (
