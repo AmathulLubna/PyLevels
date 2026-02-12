@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
-import quizData from '@/data/quizData';
+import quizData from '../data/quizData';
 
 const QuizContext = createContext();
 
