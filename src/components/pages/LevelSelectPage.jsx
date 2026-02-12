@@ -3,9 +3,10 @@ import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
-import quizData from '@/components/data/quizData';
-import LevelCard from '@/components/LevelCard';
-import { useLevelUnlock } from '@/contexts/LevelUnlockContext';
+import quizData from '../data/quizData';
+import LevelCard from '../LevelCard';
+import { useLevelUnlock } from '../contexts/LevelUnlockContext';
+
 
 const LevelSelectPage = () => {
   const navigate = useNavigate();
