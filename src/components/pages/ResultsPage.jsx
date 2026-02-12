@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Trophy, RefreshCw, List, Play, Award, Lock, CheckCircle, XCircle } from 'lucide-react';
-import { useLevelUnlock } from '@/contexts/LevelUnlockContext';
-import quizData from '@/data/quizData';
+import { useLevelUnlock } from '../contexts/LevelUnlockContext';
+import quizData from '../data/quizData';
 
 const ResultsPage = () => {
   const navigate = useNavigate();

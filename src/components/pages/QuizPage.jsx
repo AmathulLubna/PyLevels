@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowRight, AlertCircle } from 'lucide-react';
-import { useQuizContext } from '@/contexts/QuizContext';
-import ProgressBar from '@/components/ProgressBar';
-import QuestionCard from '@/components/QuestionCard';
+import { useQuizContext } from '../contexts/QuizContext';
+import ProgressBar from '../ProgressBar';
+import QuestionCard from '../QuestionCard';
 
 const QuizPage = () => {
   const navigate = useNavigate();
